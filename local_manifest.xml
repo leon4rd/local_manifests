@@ -2,23 +2,23 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/onclite" name="risawitama/android_device_xiaomi_onclite" remote="github" revision="Komodo-OS-4.0" />
- <project path="kernel/xiaomi/onclite" name="risawitama/android_kernel_xiaomi_onc" remote="github" revision="lineage-19.0" />
- <project path="vendor/xiaomi/onclite" name="risawitama/vendor_xiaomi_onclite" remote="github" revision="twelve" />
+ <project path="device/xiaomi/onclite" name="risawitama/android_device_xiaomi_onclite" remote="github" revision="Komodo-OS-4.0" clone-depth="1" />
+ <project path="kernel/xiaomi/onclite" name="Risti699/Karamel" remote="github" revision="JFla-Karamel" clone-depth="1" />
+ <project path="vendor/xiaomi/onclite" name="risawitama/android_vendor_xiaomi_onclite" remote="github" revision="twelve" clone-depth="1" />
 
  <!-- Removes -->
- <!-- <remove-project name="android_hardware_qcom_audio" /> -->
- <!-- <remove-project name="android_hardware_qcom_display" /> -->
- <!-- <remove-project name="android_hardware_qcom_media" /> -->
+ <remove-project name="android_hardware_qcom_audio" />
+ <remove-project name="android_hardware_qcom_display" />
+ <remove-project name="android_hardware_qcom_media" />
  <remove-project name="android_hardware_qcom-caf_wlan" />
 
  <!-- Changes -->
- <!-- <project path="hardware/qcom-caf/msm8996/audio" name="risawitama/hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" /> -->
- <!-- <project path="hardware/qcom-caf/msm8996/display" name="risawitama/hardware_qcom_display" remote="github" revision="sushi" /> -->
- <!-- <project path="hardware/qcom-caf/msm8996/media" name="risawitama/hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" /> -->
- <project path="hardware/qcom-caf/wlan" name="risawitama/hardware_qcom-caf_wlan" remote="github" revision="twelve" />
+ <project path="hardware/qcom-caf/msm8996/audio" name="risawitama/hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8996/display" name="risawitama/hardware_qcom_display" remote="github" revision="sushi" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8996/media" name="risawitama/hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
+ <project path="hardware/qcom-caf/wlan" name="risawitama/hardware_qcom-caf_wlan" remote="github" revision="twelve" clone-depth="1" />
  
  <!-- Toolchains -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton-12" name="kdrag0n/proton-clang" remote="github" revision="20210123" />
+ <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="AnggaR96s/clang-gengkapak.git" remote="gitlab" revision="main" clone-depth="1" />
 
 </manifest>
