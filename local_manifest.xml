@@ -6,8 +6,8 @@
     
     <!-- Trees -->
     <project path="device/xiaomi/onclite" name="risawitama/dxo" remote="kuy" revision="nad/10" />
-    <project path="kernel/xiaomi/onclite" name="NusantaraROM-Devices/kernel_xiaomi_onclite" remote="kuy" revision="11" />
-    <project path="vendor/xiaomi/onclite" name="risawitama/vxo" remote="kuy" revision="lineage-17.1" />
+    <project path="kernel/xiaomi/onclite" name="risawitama/kxo" remote="kuy" revision="nad/onc" />
+    <project path="vendor/xiaomi/onclite" name="risawitama/vxo" remote="kuy" revision="nad/10" />
     
     <!-- Extras -->
     <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="kuy" revision="lineage-17.1" />-->
