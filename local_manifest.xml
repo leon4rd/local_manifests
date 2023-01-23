@@ -5,13 +5,13 @@
     <remote name="kuy" fetch="https://github.com/" clone-depth="1" /> 
     
     <!-- Trees -->
-    <project path="device/xiaomi/onclite" name="risawitama/dxo" remote="kuy" revision="nad/10" />
+    <project path="device/xiaomi/onclite" name="risawitama/dxo" remote="kuy" revision="nad/11" />
     <project path="kernel/xiaomi/onclite" name="risawitama/kxo" remote="kuy" revision="nad/onc" />
-    <project path="vendor/xiaomi/onclite" name="risawitama/vxo" remote="kuy" revision="nad/10" />
+    <project path="vendor/xiaomi/onclite" name="risawitama/vxo" remote="kuy" revision="nad/11" />
     
     <!-- Extras -->
     <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="kuy" revision="lineage-17.1" />-->
     <!--<project path="prebuilts/clang/host/linux-x86/clang-proton-12" name="hadadarjt/proton-clang" remote="kuy" revision="20210123" />-->
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="kuy" revision="master" />
+    <!--<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="kuy" revision="master" />-->
 
 </manifest>
