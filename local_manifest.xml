@@ -7,6 +7,7 @@
     <!-- Trees -->
     <project path="device/xiaomi/onclite" name="risawitama/dxo" remote="kuy" revision="los/13" />
     <project path="kernel/xiaomi/onclite" name="risawitama/kxo" remote="kuy" revision="nad/onc" />
+    <!--<project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="kuy" revision="lineage-19.1" />-->
     <project path="vendor/xiaomi/onclite" name="risawitama/vxo" remote="kuy" revision="los/13" />
     
     <!-- Extras -->
